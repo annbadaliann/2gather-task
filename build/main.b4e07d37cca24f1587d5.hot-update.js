@@ -1,0 +1,16 @@
+exports.id = "main";
+exports.modules = {
+
+/***/ "./src/pages/SignIn/InputField.jsx":
+/*!*****************************************!*\
+  !*** ./src/pages/SignIn/InputField.jsx ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /Users/Grisho/Desktop/2gather filter/src/pages/SignIn/InputField.jsx: Unexpected token (27:10)\n\n\u001b[0m \u001b[90m 25 | \u001b[39m          className\u001b[33m=\u001b[39m{\u001b[32m`input-border ${\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 26 | \u001b[39m\u001b[32m            // focus.email ? \"input-border-animated\" : \"\"\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 27 | \u001b[39m\u001b[32m          }`\u001b[39m}\u001b[0m\n\u001b[0m \u001b[90m    | \u001b[39m          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 28 | \u001b[39m        \u001b[33m>\u001b[39m\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mspan\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 29 | \u001b[39m      \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 30 | \u001b[39m    )\u001b[33m;\u001b[39m\u001b[0m\n    at Object.raise (/Users/Grisho/Desktop/2gather filter/node_modules/@babel/parser/lib/index.js:6387:17)\n    at Object.unexpected (/Users/Grisho/Desktop/2gather filter/node_modules/@babel/parser/lib/index.js:7704:16)\n    at Object.parseExprAtom (/Users/Grisho/Desktop/2gather filter/node_modules/@babel/parser/lib/index.js:8912:20)\n    at Object.parseExprAtom (/Users/Grisho/Desktop/2gather filter/node_modules/@babel/parser/lib/index.js:3609:20)\n    at Object.parseExprSubscripts (/Users/Grisho/Desktop/2gather filter/node_modules/@babel/parser/lib/index.js:8483:23)\n    at Object.parseMaybeUnary (/Users/Grisho/Desktop/2gather filter/node_modules/@babel/parser/lib/index.js:8463:21)\n    at Object.parseExprOps (/Users/Grisho/Desktop/2gather filter/node_modules/@babel/parser/lib/index.js:8329:23)\n    at Object.parseMaybeConditional (/Users/Grisho/Desktop/2gather filter/node_modules/@babel/parser/lib/index.js:8302:23)\n    at Object.parseMaybeAssign (/Users/Grisho/Desktop/2gather filter/node_modules/@babel/parser/lib/index.js:8249:21)\n    at Object.parseExpression (/Users/Grisho/Desktop/2gather filter/node_modules/@babel/parser/lib/index.js:8197:23)\n    at Object.parseTemplate (/Users/Grisho/Desktop/2gather filter/node_modules/@babel/parser/lib/index.js:9201:34)\n    at Object.parseExprAtom (/Users/Grisho/Desktop/2gather filter/node_modules/@babel/parser/lib/index.js:8875:21)\n    at Object.parseExprAtom (/Users/Grisho/Desktop/2gather filter/node_modules/@babel/parser/lib/index.js:3609:20)\n    at Object.parseExprSubscripts (/Users/Grisho/Desktop/2gather filter/node_modules/@babel/parser/lib/index.js:8483:23)\n    at Object.parseMaybeUnary (/Users/Grisho/Desktop/2gather filter/node_modules/@babel/parser/lib/index.js:8463:21)\n    at Object.parseExprOps (/Users/Grisho/Desktop/2gather filter/node_modules/@babel/parser/lib/index.js:8329:23)");
+
+/***/ })
+
+};
+//# sourceMappingURL=main.b4e07d37cca24f1587d5.hot-update.js.map

@@ -1,0 +1,43 @@
+{
+  "name": "my-razzle-app",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "razzle start",
+    "build": "PORT=2505 razzle build",
+    "test": "razzle test --env=jsdom",
+    "start:prod": "NODE_ENV=production node build/server.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "blob-util": "^2.0.2",
+    "express": "4.16.4",
+    "google-map-react": "^1.1.5",
+    "history": "^4.9.0",
+    "primeicons": "^2.0.0",
+    "primereact": "^3.3.2",
+    "razzle": "3.0.0",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-facebook-login": "^4.1.1",
+    "react-facebook-share-link": "^1.0.4",
+    "react-google-autocomplete": "^1.1.2",
+    "react-google-login": "^5.0.4",
+    "react-ladda": "^6.0.0",
+    "react-notifications": "^1.4.3",
+    "react-responsive-carousel": "^3.1.49",
+    "react-router-dom": "5.0.0",
+    "react-share": "^3.0.0",
+    "react-slick": "^0.25.2",
+    "react-slick-slider": "^0.15.10",
+    "react-yandex-maps": "^4.0.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rsync": "0.0.8",
+    "gulp-shell": "^0.7.0",
+    "gulp-ssh": "^0.7.0",
+    "razzle-plugin-scss": "^3.0.0"
+  }
+}

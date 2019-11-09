@@ -1,0 +1,16 @@
+exports.id = "main";
+exports.modules = {
+
+/***/ "./src/pages/TopicSuggestion/tabs/Preview.jsx":
+/*!****************************************************!*\
+  !*** ./src/pages/TopicSuggestion/tabs/Preview.jsx ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /Users/Grisho/Desktop/2gather/src/pages/TopicSuggestion/tabs/Preview.jsx: Unexpected token (36:16)\n\n\u001b[0m \u001b[90m 34 | \u001b[39m                images\u001b[33m.\u001b[39mlength \u001b[33m<=\u001b[39m \u001b[35m3\u001b[39m \u001b[33m&&\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 35 | \u001b[39m              \u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 36 | \u001b[39m                \u001b[33m<\u001b[39m\u001b[33mdiv\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    | \u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 37 | \u001b[39m                  className\u001b[33m=\u001b[39m{\u001b[32m`gallery ${images.length >= 3 ? \"show-more\" : \"\"}`\u001b[39m}\u001b[0m\n\u001b[0m \u001b[90m 38 | \u001b[39m                  style\u001b[33m=\u001b[39m{{\u001b[0m\n\u001b[0m \u001b[90m 39 | \u001b[39m                    background\u001b[33m:\u001b[39m \u001b[32m`url(${item.url}) center/cover no-repeat`\u001b[39m\u001b[0m\n    at Object.raise (/Users/Grisho/Desktop/2gather/node_modules/@babel/parser/lib/index.js:6387:17)\n    at Object.unexpected (/Users/Grisho/Desktop/2gather/node_modules/@babel/parser/lib/index.js:7704:16)\n    at Object.parseIdentifierName (/Users/Grisho/Desktop/2gather/node_modules/@babel/parser/lib/index.js:9592:18)\n    at Object.parseIdentifier (/Users/Grisho/Desktop/2gather/node_modules/@babel/parser/lib/index.js:9570:23)\n    at Object.parseMaybePrivateName (/Users/Grisho/Desktop/2gather/node_modules/@babel/parser/lib/index.js:8934:19)\n    at Object.parsePropertyName (/Users/Grisho/Desktop/2gather/node_modules/@babel/parser/lib/index.js:9390:98)\n    at Object.parseObjectMember (/Users/Grisho/Desktop/2gather/node_modules/@babel/parser/lib/index.js:9291:10)\n    at Object.parseObj (/Users/Grisho/Desktop/2gather/node_modules/@babel/parser/lib/index.js:9225:25)\n    at Object.parseExprAtom (/Users/Grisho/Desktop/2gather/node_modules/@babel/parser/lib/index.js:8855:28)\n    at Object.parseExprAtom (/Users/Grisho/Desktop/2gather/node_modules/@babel/parser/lib/index.js:3609:20)\n    at Object.parseExprSubscripts (/Users/Grisho/Desktop/2gather/node_modules/@babel/parser/lib/index.js:8483:23)\n    at Object.parseMaybeUnary (/Users/Grisho/Desktop/2gather/node_modules/@babel/parser/lib/index.js:8463:21)\n    at Object.parseExprOpBaseRightExpr (/Users/Grisho/Desktop/2gather/node_modules/@babel/parser/lib/index.js:8423:34)\n    at Object.parseExprOpRightExpr (/Users/Grisho/Desktop/2gather/node_modules/@babel/parser/lib/index.js:8416:21)\n    at Object.parseExprOp (/Users/Grisho/Desktop/2gather/node_modules/@babel/parser/lib/index.js:8379:27)\n    at Object.parseExprOp (/Users/Grisho/Desktop/2gather/node_modules/@babel/parser/lib/index.js:8390:21)");
+
+/***/ })
+
+};
+//# sourceMappingURL=main.f58f4739fa91235f7a92.hot-update.js.map

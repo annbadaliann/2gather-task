@@ -1,0 +1,328 @@
+@import "src/assets/styles/variables";
+@import "src/assets/styles/mixins";
+
+.suggest-topic {
+  @include flex(space-between, "");
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 170px 0;
+
+  .tabs {
+    ul {
+      counter-reset: my-sec-counter;
+      li {
+        color: $gray;
+
+        &.done-tab,
+        &.active-tab {
+          color: #000;
+        }
+
+        &::before {
+          counter-increment: my-sec-counter;
+          content: counter(my-sec-counter) ". ";
+          padding-right: 20px;
+        }
+
+        span {
+          margin-left: 38px;
+          display: inline-block;
+        }
+
+        img {
+          margin-left: 10px;
+        }
+      }
+
+      li + li {
+        margin-top: 50px;
+      }
+    }
+  }
+
+  .tab-content {
+    width: 75%;
+
+    .title {
+      font-size: 36px;
+    }
+
+    p {
+      font-size: 17px;
+      color: #7b7b7b;
+      margin-top: 25px;
+    }
+
+    button {
+      width: 320px;
+    }
+
+    .tab-label {
+      span:first-child {
+        color: $gray;
+        margin-bottom: 15px;
+      }
+
+      input {
+        border: 1px solid #bfbfbf;
+      }
+    }
+
+    .location-category {
+      .map {
+        iframe {
+          filter: grayscale(100%);
+          border: none;
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      button {
+        margin-top: 115px;
+      }
+
+      .tab-label {
+        margin: 40px 0 20px 0;
+      }
+    }
+
+    .topic-content {
+      .paragraph {
+        margin-bottom: 25px;
+      }
+
+      .tab-label + .tab-label {
+        margin-top: 50px;
+      }
+
+      .tab-label {
+        .check {
+          margin-top: 35px;
+
+          .checkbox {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            line-height: 22px;
+            user-select: none;
+          }
+          span.text {
+            display: inline-block;
+            font-size: 17px;
+            margin-bottom: 15px;
+          }
+
+          input[type="checkbox"] {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            height: 0;
+            width: 0;
+          }
+
+          .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 23px;
+            width: 23px;
+            background-color: #fff;
+            border-radius: 3px;
+            border: 1px solid #aaaaaa;
+            margin-left: 0;
+          }
+
+          .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+          }
+
+          .checkbox input:checked ~ .checkmark:after {
+            display: block;
+          }
+
+          .checkmark:after {
+            left: 7px;
+            top: 3px;
+            width: 5px;
+            height: 10px;
+            border: solid #000000;
+            border-width: 0 3px 3px 0;
+
+            transform: rotate(45deg);
+          }
+        }
+
+        .opacity {
+          opacity: 0.3;
+        }
+        .description-label {
+          @include flex(space-between, "");
+        }
+
+        textarea {
+          border: 1px solid #bfbfbf;
+          width: 100%;
+          height: 285px;
+          padding: 10px;
+          font-size: 16px;
+          color: $black;
+        }
+      }
+
+      button {
+        margin-top: 90px;
+      }
+    }
+    .preview {
+      .publish-btn {
+        margin-top: 120px;
+      }
+
+      .user {
+        margin: 20px 0;
+        @include flex("", center);
+        img {
+          @include image(80px, 80px);
+        }
+      }
+
+      .galleries {
+        @include flex(space-between, "");
+        height: 410px;
+        margin-top: 45px;
+
+        .gallery {
+          width: 100%;
+          height: 100%;
+          cursor: pointer;
+
+          &.two {
+            width: 200px;
+            height: 200px;
+            margin-left: 10px;
+          }
+
+          &.big {
+            height: 410px;
+          }
+
+          &.three {
+            width: 200px;
+            height: 200px;
+            margin-left: 10px;
+            margin-top: 10px;
+          }
+
+          &.show-more {
+            position: absolute;
+
+            &::before {
+              content: "3+";
+              position: absolute;
+              font-size: 65px;
+              color: #fff;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+            }
+          }
+        }
+      }
+    }
+
+    .media {
+      button {
+        margin-top: 80px;
+      }
+
+      .gallery-list {
+        @include flex("", center);
+        flex-wrap: wrap;
+        max-width: 530px;
+        width: 100%;
+        margin: 50px -10px 0 -10px;
+
+        .gallery {
+          margin: 10px;
+          width: 45%;
+          height: 185px;
+          position: relative;
+          img {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+          }
+
+          .delete-img {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            right: 5px;
+            top: 5px;
+            cursor: pointer;
+          }
+
+          &.upload {
+            img {
+              width: 40px;
+              height: 40px;
+              cursor: pointer;
+            }
+
+            label {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              width: 100%;
+              height: 100%;
+              box-shadow: 0px 3px 6px #00000029;
+              @include flex(center, center);
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.publish-modal {
+  padding: 20px 40px 50px 40px;
+  text-align: center;
+  max-width: 490px;
+  width: 100%;
+
+  .paragraph {
+    margin: 20px 0;
+  }
+}
+
+.slider-pics {
+  width: 800px;
+
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 60px;
+  }
+
+  .slick-track {
+    height: 450px;
+  }
+
+  .slick-prev {
+    left: 3px;
+    z-index: 44;
+  }
+
+  .slick-next {
+    right: 43px;
+  }
+}

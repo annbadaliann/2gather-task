@@ -1,0 +1,16 @@
+exports.id = "main";
+exports.modules = {
+
+/***/ "./src/pages/TopicSuggestion/index.jsx":
+/*!*********************************************!*\
+  !*** ./src/pages/TopicSuggestion/index.jsx ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /Users/Grisho/Desktop/2gather filter/src/pages/TopicSuggestion/index.jsx: Can not use keyword 'await' outside an async function (156:18)\n\n\u001b[0m \u001b[90m 154 | \u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 155 | \u001b[39m    \u001b[36mtry\u001b[39m {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 156 | \u001b[39m      \u001b[36mconst\u001b[39m res \u001b[33m=\u001b[39m await fetch(\u001b[32m\"https://2.evollai.com/api/topic\"\u001b[39m\u001b[33m,\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m     | \u001b[39m                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 157 | \u001b[39m        method\u001b[33m:\u001b[39m \u001b[32m\"POST\"\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 158 | \u001b[39m        formData\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 159 | \u001b[39m        headers\u001b[33m:\u001b[39m {\u001b[0m\n    at Object.raise (/Users/Grisho/Desktop/2gather filter/node_modules/@babel/parser/lib/index.js:6387:17)\n    at Object.checkReservedWord (/Users/Grisho/Desktop/2gather filter/node_modules/@babel/parser/lib/index.js:9624:14)\n    at Object.parseIdentifierName (/Users/Grisho/Desktop/2gather filter/node_modules/@babel/parser/lib/index.js:9596:12)\n    at Object.parseIdentifier (/Users/Grisho/Desktop/2gather filter/node_modules/@babel/parser/lib/index.js:9570:23)\n    at Object.parseExprAtom (/Users/Grisho/Desktop/2gather filter/node_modules/@babel/parser/lib/index.js:8772:27)\n    at Object.parseExprAtom (/Users/Grisho/Desktop/2gather filter/node_modules/@babel/parser/lib/index.js:3609:20)\n    at Object.parseExprSubscripts (/Users/Grisho/Desktop/2gather filter/node_modules/@babel/parser/lib/index.js:8483:23)\n    at Object.parseMaybeUnary (/Users/Grisho/Desktop/2gather filter/node_modules/@babel/parser/lib/index.js:8463:21)\n    at Object.parseExprOps (/Users/Grisho/Desktop/2gather filter/node_modules/@babel/parser/lib/index.js:8329:23)\n    at Object.parseMaybeConditional (/Users/Grisho/Desktop/2gather filter/node_modules/@babel/parser/lib/index.js:8302:23)\n    at Object.parseMaybeAssign (/Users/Grisho/Desktop/2gather filter/node_modules/@babel/parser/lib/index.js:8249:21)\n    at Object.parseVar (/Users/Grisho/Desktop/2gather filter/node_modules/@babel/parser/lib/index.js:10551:26)\n    at Object.parseVarStatement (/Users/Grisho/Desktop/2gather filter/node_modules/@babel/parser/lib/index.js:10370:10)\n    at Object.parseStatementContent (/Users/Grisho/Desktop/2gather filter/node_modules/@babel/parser/lib/index.js:9967:21)\n    at Object.parseStatement (/Users/Grisho/Desktop/2gather filter/node_modules/@babel/parser/lib/index.js:9900:17)\n    at Object.parseBlockOrModuleBlockBody (/Users/Grisho/Desktop/2gather filter/node_modules/@babel/parser/lib/index.js:10476:25)");
+
+/***/ })
+
+};
+//# sourceMappingURL=main.812501523db8f76ca9f4.hot-update.js.map

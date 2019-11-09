@@ -1,0 +1,11 @@
+@mixin flex($justify, $align) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin image($width, $height) {
+  object-fit: cover;
+  width: $width;
+  height: $height;
+}

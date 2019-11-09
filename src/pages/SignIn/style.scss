@@ -1,0 +1,81 @@
+@import "src/assets/styles/variables";
+@import "src/assets/styles/mixins";
+
+.sign-in {
+  @include flex(space-between, center);
+
+  .logo {
+    width: 60%;
+    height: 100vh;
+
+    img {
+      @include image(100%, 100%);
+    }
+  }
+
+  .sign-in-form {
+    @include flex(center, center);
+    width: 40%;
+
+    .sign-in-form-container {
+      max-width: 435px;
+      width: 100%;
+
+      .fields {
+        box-shadow: 0px 27px 75px #0000000f;
+      }
+
+      h2 {
+        font-weight: bold;
+        font-size: 35px;
+      }
+
+      p {
+        color: #818181;
+        margin: 15px 0 40px;
+        font-size: 18px;
+      }
+
+      .password-label {
+        position: relative;
+
+        img {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          right: 15px;
+          width: 18px;
+          height: 18px;
+        }
+
+        input {
+          border-top: none;
+        }
+      }
+
+      .G-field {
+        input {
+          padding-top: 10px;
+        }
+
+        .input-border {
+          position: absolute;
+          top: 0;
+          height: 0;
+          width: 2px;
+          background-color: $black;
+          transition: all 0.5s;
+
+          &.input-border-animated {
+            height: 55px;
+          }
+        }
+      }
+
+      button {
+        margin-top: 90px;
+        width: 176px;
+      }
+    }
+  }
+}
